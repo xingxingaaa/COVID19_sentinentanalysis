@@ -18,7 +18,7 @@ class preprocess():
         tweet = tweet.split(' ')
         j = 0
         for str_ in tweet:
-            fileName = '/content/COVID19_sentinentanalysis/preprocessing/Abbreviations.txt'
+            fileName = 'COVID19_sentinentanalysis/preprocessing/Abbreviations.txt'
             accessMode = 'r'
             with open(fileName, accessMode) as csvfile:
                 dataFromFile = csv.reader(csvfile, delimiter = '=')
